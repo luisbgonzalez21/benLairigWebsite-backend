@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "trip_guides",
+  "info": {
+    "singularName": "trip-guide",
+    "pluralName": "trip-guides",
+    "displayName": "trip-guide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "checklist": {
+      "type": "enumeration",
+      "enum": [
+        "a,",
+        "b,",
+        "c,",
+        "d"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

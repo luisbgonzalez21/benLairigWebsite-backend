@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_page_starts",
+  "info": {
+    "displayName": "page-start"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}
